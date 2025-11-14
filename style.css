@@ -1,0 +1,98 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #006D5B;/*teal*/
+    color: black;
+}
+header 
+{
+    background: #fffacd;/*cream*/
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+}
+main 
+{
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sitcom-list 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.sitcom 
+{
+    background: #fffacd;/*cream*/
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.sitcom:hover 
+{
+    transform: translateY(-5px);
+}
+.sitcom h2 
+{
+    margin-top: 0;
+    color: black;
+}
+.sitcom img 
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+.sitcom p 
+{
+    color: black;
+}
+.sitcom .more-info 
+{
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #006D5B;/*teal*/;
+    border-radius: 4px;
+}
+.sitcom .more-info h3 
+{
+    margin-top: 0;
+}
+button
+{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: black;
+    background-color: #006D5B;/*teal*/;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover 
+{
+    background-color: #004c47/*tealish*/;
+}
+footer 
+{
+    text-align: center;
+    padding: 1rem;
+    background: #fffacd;/*cream*/
+    color: black;
+    margin-top: 2rem;
+}
+
+
+
+
+
